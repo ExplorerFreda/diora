@@ -3,9 +3,9 @@ import types
 
 import torch
 
-from train import argument_parser, parse_args, configure
-from train import get_validation_dataset, get_validation_iterator
-from train import build_net
+from diora.scripts.train import argument_parser, parse_args, configure
+from diora.scripts.train import get_validation_dataset, get_validation_iterator
+from diora.scripts.train import build_net
 
 from diora.logging.configuration import get_logger
 
