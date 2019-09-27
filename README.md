@@ -1,7 +1,14 @@
 ## DIORA Span Representation
 
-#### Usage
+#### Dependencies
 ```
+conda create -n diora python=3.6
+source activate diora
+
+conda install pytorch=1.1.0 torchvision -c pytorch
+pip install allennlp
+pip install tqdm
+
 (clone this repo)
 cd pytorch
 export PYTHONPATH=$(pwd):$PYTHONPATH
