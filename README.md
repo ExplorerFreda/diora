@@ -17,6 +17,8 @@ bash config.sh
 
 Then you should be able to run the following script anywhere:
 ```Python
+from diora_span import DioraRepresentation
+
 sent = 'hello world !'.split()
 tool = DioraRepresentation(PATH_TO_YOUR_CORPUS)
 representation = tool.span_representation(sent, 0, 3)
