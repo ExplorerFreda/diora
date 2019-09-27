@@ -5,7 +5,7 @@
 conda create -n diora python=3.6
 source activate diora
 
-conda install pytorch=1.1.0 torchvision -c pytorch
+conda install pytorch==1.1.0 torchvision -c pytorch
 pip install allennlp
 pip install tqdm
 
